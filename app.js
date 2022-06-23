@@ -71,5 +71,5 @@ function validPassword(pass) {
 
 function validPhone(phone) {
     const regex = /^[0-9]{10}$/;
-    regex.test(phone);
+    return regex.test(phone);
 }
